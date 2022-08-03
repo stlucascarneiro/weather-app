@@ -29,28 +29,11 @@ Para baixar as dependências da aplicação execute o comando:
 yarn
 ```
 
-Crie um arquivo na raiz do projeto com o nome de `next.config.js` e insira o código abaixo substituindo o <API_ID> pela Api Key do Open Weather
-
-```
-/** @type {import('next').NextConfig} */
-
-const nextConfig = {
-  reactStrictMode: true,
-  compiler: {
-    styledComponents: true,
-  },
-  env: {
-    OPEN_WEATHER_API_ID: <API_ID>
-  }
-}
-  
-module.exports = nextConfig
-```
-
-Crie um arquivo .env.local na raiz do projeto com o código:
+Crie um arquivo .env.local na raiz do projeto e substitua os valores das variáveis de ambientes entre <>:
 
 ```
 GOOGLE_API_KEY=<GoogleApiKey>
+OPEN_WEATHER_API_ID=<OpenWeatherKey>
 ```
 
 ### Execução
