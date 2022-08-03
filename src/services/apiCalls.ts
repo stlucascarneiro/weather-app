@@ -19,7 +19,7 @@ const apiLocale = {
 }
 
 export const getWeather = async (lat: TQuery, lng: TQuery, units: TQuery, locale: TLocale): Promise<IWeather> => {
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}1&lon=${lng}&units=${units}&lang=${apiLocale[locale]}&appid=${process.env.OPEN_WEATHER_API_ID}`
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}1&lon=${lng}&units=${units}&lang=${apiLocale[locale]}&appid=${process.env.OPEN_WEATHER_API_KEY}`
   const data: any = await fetch(url)
     .then(res => {
       if (!res.ok) throw new Error(res.statusText)
@@ -39,7 +39,7 @@ export const getWeather = async (lat: TQuery, lng: TQuery, units: TQuery, locale
 }
 
 export const getForecast = async (lat: TQuery, lng: TQuery, units: TQuery, locale: TLocale): Promise<any> => {
-  const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lng}&units=${units}&lang=${apiLocale[locale]}&appid=${process.env.OPEN_WEATHER_API_ID}`
+  const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lng}&units=${units}&lang=${apiLocale[locale]}&appid=${process.env.OPEN_WEATHER_API_KEY}`
   const data: any = await fetch(url)
     .then(res => {
       if (!res.ok) throw new Error(res.statusText)
