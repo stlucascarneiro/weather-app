@@ -7,7 +7,7 @@ Essa aplicação tem como objetivo prover informações sobre o clima atual e pr
 * ReactJs: Controle de estados, componentes e reatividade;
 * NextJs: Otimização de performance com SSR e Bundling;
 * Styled Components: CSS dinâmico com a técnica CSS-in-JS;
-* Jest & React Testing Library: Testes unitários com manipulação do DOM
+* Jest & React Testing Library: Testes unitários com manipulação do DOM;
 * Google Places API: Autocomplete com informações do Google Maps;
 * Open Weather API: Informações do clima e previsões.
 
