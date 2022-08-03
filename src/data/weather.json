@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": -43.2618,
+    "lat": -22.8685
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "nublado",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 294.48,
+    "feels_like": 294.99,
+    "temp_min": 292.86,
+    "temp_max": 295.94,
+    "pressure": 1025,
+    "humidity": 89
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.57,
+    "deg": 210
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1659489381,
+  "sys": {
+    "type": 1,
+    "id": 8376,
+    "country": "BR",
+    "sunrise": 1659432388,
+    "sunset": 1659472323
+  },
+  "timezone": -10800,
+  "id": 3473640,
+  "name": "São Cristóvão",
+  "cod": 200
+}

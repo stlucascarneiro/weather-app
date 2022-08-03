@@ -1,0 +1,29 @@
+{
+  "pt-br": {
+    "index": {
+      "title": "Como está o tempo hoje?",
+      "input": "Digite o nome da cidade"
+    },
+    "footer": "Idioma selecionado: Português",
+    "weather": "Ver previsão para os próximos 5 dias",
+    "forecast": "Previsão para 5 dias"
+  },
+  "en-us": {
+    "index": {
+      "title": "How is the weather today?",
+      "input": "Search for a place"
+    },
+    "footer": "Selected Language: English",
+    "weather": "See forecast for the next 5 days",
+    "forecast": "Forecast for 5 days"
+  },
+  "es-es": {
+    "index": {
+      "title": "¿Como está el tiempo hoy?",
+      "input": "Busca un lugar"
+    },
+    "footer": "Idioma seleccionado: Español",
+    "weather": "Ver previsión para los próximos 5 días",
+    "forecast": "Previsión para 5 días"
+  }
+}
